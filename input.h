@@ -12,7 +12,7 @@ public:
 	{
 		running_ = false;
 	}
-private:
+private:	
 	std::queue<Direction> queue_;
 	std::mutex mtx_;
 	bool running_{ true };

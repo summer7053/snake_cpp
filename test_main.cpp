@@ -2,6 +2,7 @@
 #include"catch.hpp"
 #include"../src/snake.h"
 
+
 TEST_CASE("Snake moves")
 {
 	Snake s(3, 3);

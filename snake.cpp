@@ -18,7 +18,7 @@ void Snake::move(Direction dir)
 	if (isOpposite(dir, dir_))
 		return; // 反向过滤
 	dir_ = dir;
-	auto [x, y] = body_.front();
+	auto [x, y] = body_.front();//结构出旧头坐标
 	switch (dir_)
 	{
 	case Direction::Up: y--; break;

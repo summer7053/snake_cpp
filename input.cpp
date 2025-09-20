@@ -1,5 +1,6 @@
 #include"input.h"
 #include<conio.h>//windowsŒﬁªÿœ‘ ‰»Î
+#include<SFML/Window.hpp>
 
 Direction Input::pop()
 {
@@ -30,4 +31,3 @@ void Input::operator()()
 		}
 	}
 }
-

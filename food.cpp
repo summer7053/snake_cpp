@@ -12,6 +12,6 @@ void Food::respawn()
 	{
 		std::random_device{}()
 	};
-	std::uniform_int_distribution<int> dx(0, w_ - 1), dy(0, h_ - 1);
+	std::uniform_int_distribution<int> dx(0, w_ - 2), dy(0, h_ - 2);
 	pos_ = { dx(rng),dy(rng) };
 }
